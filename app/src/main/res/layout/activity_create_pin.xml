@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User ! Create PIN"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/lockIcon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lock_icon"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/createPinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create 4 - Digit PIN"
+        android:layout_below="@+id/lockIcon2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/createPinEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:layout_below="@+id/createPinText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="****"
+        android:textColor="@color/black"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <TextView
+        android:id="@+id/confirmPinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm PIN"
+        android:layout_below="@+id/createPinEditText"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/confirmPinEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:layout_below="@+id/confirmPinText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="****"
+        android:textColor="@color/black"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/createPinSubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/confirmPinEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+
+</RelativeLayout>

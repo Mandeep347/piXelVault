@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/borderDesign"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user_auth_box"/>
+
+    <ImageView
+        android:id="@+id/lockIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lock_icon"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/EnterPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 4 - Digit PIN"
+        android:layout_below="@+id/lockIcon"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/enterPinBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:layout_below="@+id/EnterPin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="****"
+        android:textColor="@color/black"
+        android:maxLength="4"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/submitBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/enterPinBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+
+</RelativeLayout>
