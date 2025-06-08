@@ -29,5 +29,7 @@ Usage :
 - Add photos to encrypt and store securely
 
 Contributing : Contributions are welcome! Please open an issue or submit a pull request.
-Liscense : This project is not lincensed and open to use for everyone.
+
 Author : Mandeep Chauhan (B.Tech/CSE from AKTU university)
+
+Liscense : This project is open-source under the MIT License.
