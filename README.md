@@ -1,4 +1,5 @@
 Project Title : piXelVault
+
 Project Description : A secure Android gallery app that encrypts images and files with a PIN lock. Built using Kotlin and AES encryption.
 
 Features :-
